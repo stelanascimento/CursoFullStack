@@ -1,8 +1,8 @@
 {
-  "name": "metodoAdd_date-fns",
+  "name": "reorganizandoProjetoVariosArquivos",
   "version": "1.0.0",
   "description": "",
-  "main": "add.js",
+  "main": "index copy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^2.23.0"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "swagger-autogen": "^2.11.2",
+    "swagger-ui-express": "^4.1.6"
   }
 }

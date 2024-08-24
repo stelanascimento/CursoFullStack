@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.escondido {
+    display: none;
+}
+
+
+
+.modal {
+    background-color: grey;
+    color: white;
+
+    padding: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 80%;
+
+    background-color: crimson;
+    color: white;
+
+    padding: 0.7rem;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.inscrito {
+    background-color: grey;
+}

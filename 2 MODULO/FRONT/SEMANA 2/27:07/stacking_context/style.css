@@ -1,0 +1,44 @@
+/* a imagem do gato tem 50px para direita
+a imagem do gato vai estar em baixo do cachorro
+e a imagem do cachorro vai ter que estar em cima da imagem do gato
+a imagem do cachorro comeca 50 px a cima  */
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.imagens {
+    display: flex;
+}
+
+.quadro {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.quadro-1 {
+    position: relative;
+    left: 50px;
+    /* z-index: 1; */
+    z-index: 0;
+}
+
+.gato {
+    position: relative;
+    z-index: 1;
+}
+
+.quadro-2 {
+    position: relative;
+    bottom: 50px;
+}
