@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    background-color: pink;
+
+}
+
+
+
+
+.card {
+    text-align: center;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+
+
+
+
+}

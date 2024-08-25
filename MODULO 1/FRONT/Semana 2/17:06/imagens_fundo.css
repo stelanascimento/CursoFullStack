@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+    background-image: url('https://i.picsum.photos/id/824/400/400.jpg?hmac=rL0WvJ9tO50pIToDpehccT424fZ2NCf5MgNc3NcNYGc'), url('https://i.picsum.photos/id/275/300/300.jpg?hmac=WAeR7r6GBp8Aakj0SASckESIRZGzqjLk9eVs74_OCJg'), url('/padrao.jpeg');
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: 100px 100px, 600px 200px, top left;
+
+}

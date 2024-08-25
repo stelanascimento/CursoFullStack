@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    background-color: #ff0000;
+    margin-bottom: 30px;
+}
+
+main {
+    background-color: blue;
+}
+
+aside {
+    background-color: green;
+    outline: 10px solid rgb(153, 3, 3);
+}
+
+footer {
+    background-color: yellow;
+}

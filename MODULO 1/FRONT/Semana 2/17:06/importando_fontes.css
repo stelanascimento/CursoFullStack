@@ -1,0 +1,14 @@
+h1 {
+    font-size: 58px;
+
+}
+
+p {
+    font-size: 32px;
+
+}
+
+h1,
+p {
+    font-family: 'Montserrat', sans-serif;
+}

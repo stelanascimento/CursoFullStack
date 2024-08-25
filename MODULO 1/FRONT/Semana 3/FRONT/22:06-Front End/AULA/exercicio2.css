@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    /* flex-direction: row;  ja vem como padrao*/
+
+    justify-content: space-between;
+    /* separa os elementos o maximo possivel */
+    font-size: 200%;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+li {
+    margin-left: 20px;
+}
